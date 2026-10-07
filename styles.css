@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    transition: all 0.1s ease-in-out;
     scroll-behavior: smooth;
 }
 
@@ -109,6 +108,26 @@ span {
     font-family: var(--main-text-font-family);
     font-size: var(--main-text-size);
 }
+
+/* NAV BAR */
+#navBar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.7rem;
+    margin-bottom: 1rem;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
 
 /* RESPONSIVE */
 
