@@ -53,6 +53,12 @@
     color: var(--text-color);   
 }
 
+.sub-text {
+    font-family: var(--main-text-font-family);
+    font-size: var(--main-text-size);
+    color: var(--sub-text-color);
+}
+
 /* POPUP */
 .popup {
     position: fixed;
