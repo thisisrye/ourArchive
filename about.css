@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* LAYOUT HELPER */
+
+.flexCenter { display: flex; justify-content: center; align-items: center; }
+.flexStartColumn { display: flex; justify-content: center; align-items: flex-start; flex-direction: column;  }
+.flexCenterColumn { display: flex; justify-content: center; align-items: center; flex-direction: column; }
+.imgsContain { width: 100%; height: 100%; object-fit: contain; }
+.imgsCover { width: 100%; height: 100%; object-fit: cover; }
+#imgsRadius { width: 100%; height: 100%; object-fit: contain; border-radius: 100%; }
+
+:root {
+    --black: #090909;
+    --green: #89A482;
+    --white: #fffffd; 
+    
+    --text-color: #a5a5a5;
+
+    --main-title-text:  "Gotu", sans-serif;
+    --main-title-size: 18px;
+    --main-title-letter-spacing: .5px;
+
+    --main-text-size: 12px;
+    --main-text-font-family: "Sen", sans-serif;
+    --main-text-line-height: 1.8em;
+
+    --bullet-text-size: 9px;
+}
+
+/* FONTS */
+.sen {
+  font-family: "Sen", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gotu-regular {
+  font-family: "Gotu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* BACKGROUND */
+#background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--black);
+}
+
+/* NAVBAR */
+#navBar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.icon {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1rem;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.icon p {
+    font-family: var(--main-text-font-family);
+    font-size: var(--bullet-text-size);
+}

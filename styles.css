@@ -20,6 +20,7 @@
     --white: #fffffd; 
     
     --text-color: #a5a5a5;
+    --sub-text-color: #696969;
 
     --main-title-text:  "Gotu", sans-serif;
     --main-title-size: 18px;
@@ -122,7 +123,7 @@
 .main-title:nth-child(2) {
     font-family: var(--main-text-font-family);
     font-size: var(--main-text-size);
-    color: var(--text-color);
+    color: var(--sub-text-color);
     margin-bottom: 1.5rem;
 }
 
@@ -176,6 +177,7 @@ span {
     font-size: 1rem;
     color: var(--text-color);
     gap: 0.2rem;
+    text-decoration: none;
 }
 
 .icon p {
