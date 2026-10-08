@@ -116,6 +116,13 @@
     font-family: var(--main-title-text);
     font-size: var(--main-title-size);
     color: var(--text-color);
+    
+}
+
+.main-title:nth-child(2) {
+    font-family: var(--main-text-font-family);
+    font-size: var(--main-text-size);
+    color: var(--text-color);
     margin-bottom: 1.5rem;
 }
 
@@ -182,7 +189,7 @@ span {
 @media (max-width: 768px) {
     #infoCardWrapper {
         flex-direction: column;
-        gap: 2rem;
+        gap: 1.5rem;
     }
 
     #name, .main-text, #traits {
