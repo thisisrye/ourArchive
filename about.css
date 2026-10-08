@@ -18,6 +18,8 @@
     --black: #090909;
     --green: #89A482;
     --white: #fffffd; 
+    --yellow: #FEF3E2;
+    --red: #D96868;
     
     --text-color: #a5a5a5;
     --sub-text-color: #696969;
@@ -181,6 +183,23 @@ span {
     color: var(--text-color);
 }
 
+#aboutDetailsText, #aboutDetailsText2 {
+    text-align: center;
+    line-height: var(--main-text-line-height);
+    font-size: var(--main-text-size);
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+#aboutDetailsText i {
+    font-size: 1rem;
+    color: var(--yellow);
+}
+
+#aboutDetailsText2 i {
+    font-size: 1rem;
+    color: var(--red);
+}
 
 
 /* RESPONSIVE */
